@@ -11443,3 +11443,5 @@ section.resume-section .resume-section-content {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
+
+span.nobr { white-space: nowrap; }
