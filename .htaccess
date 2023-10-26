@@ -1,2 +1,6 @@
+<ifModule mod_headers.c> 
+    Header set Content-Security-Policy «script-src ‘self'» 
+</ifModule>
+
 DirectoryIndex index_minified.html
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
