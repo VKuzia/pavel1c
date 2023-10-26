@@ -5,3 +5,4 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -r css $DEPLOYPATH
     - /bin/cp -r assests $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
