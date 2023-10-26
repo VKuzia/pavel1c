@@ -1,2 +1,2 @@
-DirectoryIndex index.php index.cgi index.html
+DirectoryIndex index_minified.html
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
