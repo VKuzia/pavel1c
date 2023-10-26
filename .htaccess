@@ -1,5 +1,5 @@
 <ifModule mod_headers.c> 
-    Header set Content-Security-Policy «script-src ‘self'» 
+    Header set Content-Security-Policy "script-src http://xn--1--8kcl0axamikcgko.xn--90ais/js/; object-src 'none'; require-trusted-types-for 'script'" 
 </ifModule>
 
 DirectoryIndex index_minified.html
