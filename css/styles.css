@@ -601,9 +601,8 @@ progress {
 }
 
 .img-fluid {
-  max-height: 400px;
-  max-width: 70%;
-  width: auto;
+  aspect-ratio: 1/1;
+  height: 100%;
 }
 
 .img-profile {
