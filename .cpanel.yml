@@ -3,6 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/xn18kcl0/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index_minified.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
